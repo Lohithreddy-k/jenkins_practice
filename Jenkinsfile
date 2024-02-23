@@ -2,7 +2,7 @@ node
 	{
 	stage("scm")
 		{
-			git "github.com/SreekanthJaladanki/Jenkins_practice.git"
+			git "https://github.com/SreekanthJaladanki/Jenkins_practice.git"
 		}
 	stage("run")
 		{
