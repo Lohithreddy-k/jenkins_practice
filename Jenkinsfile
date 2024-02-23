@@ -2,10 +2,11 @@ node
 	{
 	stage("scm")
 		{
-			git "https://github.com/SreekanthJaladanki/Jenkins_practice.git"
+			git "https://github.com/Lohithreddy-k/jenkins_practice.git"
 		}
 	stage("run")
 		{
-			sh "java Demo.java"
+			sh "java demo.java"
+			sh "main.py"
 		}
 	}
