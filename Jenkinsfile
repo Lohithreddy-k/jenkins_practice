@@ -6,6 +6,6 @@ node
 		}
 	stage("run")
 		{
-			sh java Demo.java
+			sh "java Demo.java"
 		}
 	}
