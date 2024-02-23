@@ -7,6 +7,6 @@ node
 	stage("run")
 		{
 			sh "java demo.java"
-			sh "main.py"
+			sh "python main.py"
 		}
 	}
