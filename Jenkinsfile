@@ -1,4 +1,4 @@
-node 
+node("s1") 
 	{
 	stage("scm")
 		{
